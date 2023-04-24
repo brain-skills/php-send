@@ -1,0 +1,17 @@
+body {margin:0; padding:20px;}
+h1{margin: 0 0 20px 0; border: 1px solid #222; border-radius: 6px; padding: 5px 10px;}
+ul {list-style-type: none; padding:0; margin:0;}
+li {margin: 10px 0;}
+a:hover {color: red !important;}
+a:visited {color: blue;}
+.active {color: red !important;}
+fieldset {display: block; padding: 5px 10px; border: 1px solid #bbb; margin: 10px 0 30px 0;}
+fieldset p{margin: 0; border-bottom: none; cursor: inherit;}
+p {margin: 0;padding-bottom: 2px;border-bottom: 1px solid #bbb;}
+.paragraph {cursor: pointer; border: 1px solid rgb(0, 110, 255); border-radius: 4px; padding: 5px 10px;}
+fieldset {min-height: 80px !important; max-height: 240px !important; overflow-y: scroll;}
+
+::-webkit-scrollbar-track {background-color: #fff;} 
+::-webkit-scrollbar-thumb {background-color: #888;} 
+::-webkit-scrollbar {width: 8px;}
+* {scrollbar-color: #ccc #fff; scrollbar-width: thin;}
